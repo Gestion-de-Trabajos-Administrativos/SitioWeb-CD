@@ -1,26 +1,24 @@
 <script setup lang="ts">
 const items = [
-  'https://picsum.photos/468/468?random=1',
-  'https://picsum.photos/468/468?random=2',
-  'https://picsum.photos/468/468?random=3',
-  'https://picsum.photos/468/468?random=4',
-  'https://picsum.photos/468/468?random=5',
-  'https://picsum.photos/468/468?random=6'
+  'papas.jpg', 'tomate.jpg', 'carne.jpg','lechuga.jpg','cebolla.jpg','salchicha.jpg','pan.jpg','repollo.jpg', 'frijoles.jpg'
 ]
 </script>
 
 <template>
   <div>
     <UPageHero class="hero-bg">
-      <template #title>
-        Taquería: El Callejón de Dany
+      <template #title >
+        <h1 class="text-left text-[#ffffff]">
+          Taquería: El Callejón de Dany
+        </h1>
       </template>
+      
     </UPageHero>
     <hr class="bg-[#309bb5]">
 
     <UPageSection
       id="features"
-      title="CONOCENOS"
+      title="CONÓCENOS"
       description="Start with a solid foundation. This template includes all the essentials for building production-ready applications with Nuxt UI's powerful component system."
       :features="[{
         icon: 'i-lucide-rocket',
@@ -50,7 +48,7 @@ const items = [
     />
 
     <p class="text-4xl font-bold text-center text-white">
-      EXPLORA NUESTRO SABOR!
+      ¡EXPLORA NUESTRO SABOR!
     </p>
 
     <UCarousel
@@ -63,9 +61,7 @@ const items = [
     >
       <img
         :src="item"
-        width="234"
-        height="234"
-        class="rounded-lg my-20"
+        class="w-[300px] h-[300px] object-cover rounded-lg my-20"
         loading="lazy"
       >
     </UCarousel>

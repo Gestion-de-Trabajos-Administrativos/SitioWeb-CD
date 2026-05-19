@@ -21,7 +21,7 @@ useSeoMeta({
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
+  ogImage: '/Logo.png',
   twitterCard: 'summary_large_image'
 })
 
@@ -49,10 +49,20 @@ const items = ref<NavigationMenuItem[][]>([
 
 <template>
   <UApp>
-    <UHeader class="bg-[#e52463] text-[#ffffff]">
-      <template #title>
-        Taquería: El Callejón de Dany
-      </template>
+    <UHeader class="bg-[#e52463] text-[#ffffff]  flex items-center justify-between px-4">
+      <template #left>
+    <div class="flex items-center gap-2">
+      <img
+        src="/Logo.png"
+        alt="Logo"
+        class="max-w-[80px] h-auto object-contain"
+      />
+      <span class="font-bold text-lg">
+        TAQUERÍA: EL CALLEJON DE DANY
+      </span>
+    </div>
+  </template>
+      
       <template #right>
         <UNavigationMenu color="primary" :items="items" />
       </template>
