@@ -1,24 +1,5 @@
-<script setup lang="ts">
-const items = [
-  'papas.jpg', 'tomate.jpg', 'carne.jpg','lechuga.jpg','cebolla.jpg','salchicha.jpg','pan.jpg','repollo.jpg', 'frijoles.jpg'
-]
-</script>
-
 <template>
   <div>
-    <UPageHero class="hero-bg">
-      <template #title >
-        <h1 class="text-[#ffffff]">
-          Taquería:
-        </h1>
-        <h1 class="text-[#ffffff]">
-          El Callejón de Dany
-        </h1>
-      </template>
-      
-    </UPageHero>
-    <hr class="bg-[#309bb5]">
-
     <UPageSection
       id="features"
       title="CONÓCENOS"
@@ -49,25 +30,6 @@ const items = [
         description: 'Enterprise-ready architecture with proper error handling, SEO optimization, and security best practices built-in.'
       }]"
     />
-
-    <p class="text-4xl font-bold text-center text-white">
-      ¡EXPLORA NUESTRO SABOR!
-    </p>
-
-    <UCarousel
-      v-slot="{ item }"
-      loop
-      arrows
-      auto-scroll
-      :items="items"
-      :ui="{ container: 'gap-0', item: 'basis-1/5' }"
-    >
-      <img
-        :src="item"
-        class="w-[300px] h-[300px] object-cover rounded-lg my-20"
-        loading="lazy"
-      >
-    </UCarousel>
 
     <hr class="h-2 bg-[#e52463] my-8">
   </div>

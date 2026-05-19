@@ -30,17 +30,17 @@ const items = ref<NavigationMenuItem[][]>([
     {
       label: 'INICIO',
       icon: 'i-lucide-box',
-      to: '/docs/getting-started'
+      to: '/'
     },
     {
       label: 'MENÚ',
       icon: 'i-lucide-book-open',
-      to: '/docs/composables'
+      to: '/menu'
     },
     {
-      label: 'NOSOTROS',
+      label: 'SOBRE NOSOTROS',
       icon: 'i-lucide-user',
-      to: '/docs/components',
+      to: '/nosotros',
       active: true
     }
   ]
@@ -58,7 +58,7 @@ const items = ref<NavigationMenuItem[][]>([
         class="max-w-[80px] h-auto object-contain"
       />
       <span class="font-bold text-lg">
-        TAQUERÍA: EL CALLEJON DE DANY
+        TAQUERÍA: EL CALLEJÓN DE DANY
       </span>
     </div>
   </template>
