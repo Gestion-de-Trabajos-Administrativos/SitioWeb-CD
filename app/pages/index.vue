@@ -15,8 +15,8 @@ const items = [
           El Callejón de Dany
         </h1>
       </template>
-      
     </UPageHero>
+    
     <hr class="bg-[#309bb5]">
 
     <UPageSection

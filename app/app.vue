@@ -6,7 +6,7 @@ useHead({
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
   ],
   link: [
-    { rel: 'icon', href: '/favicon.ico' }
+    { rel: 'icon', href: '/Logo.ico' }
   ],
   htmlAttrs: {
     lang: 'en'
@@ -75,11 +75,14 @@ const items = ref<NavigationMenuItem[][]>([
     <UFooter class="my-10">
       <template #left>
         <p class="text-sm text-muted">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+          Taquería: El Callejón de Dany • © {{ new Date().getFullYear() }}
         </p>
       </template>
 
       <template #right>
+        <p class="text-sm text-muted">
+          ¡Síguenos en nuestras redes sociales!
+        </p>
         <UButton
           to="https://github.com/nuxt-ui-templates/starter"
           target="_blank"
