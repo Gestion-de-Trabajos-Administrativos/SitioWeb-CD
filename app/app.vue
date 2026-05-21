@@ -29,12 +29,12 @@ const items = ref<NavigationMenuItem[][]>([
   [
     {
       label: 'INICIO',
-      icon: 'i-lucide-box',
+      icon: 'i-lucide-house',
       to: '/'
     },
     {
       label: 'MENÚ',
-      icon: 'i-lucide-book-open',
+      icon: 'i-lucide-menu',
       to: '/menu'
     },
     {
@@ -68,7 +68,8 @@ const items = ref<NavigationMenuItem[][]>([
       </template>
     </UHeader>
 
-    <UMain class="bg-[#fac51c]">
+    <UMain class="bg-gradient-to-b from-[#fac51c] via-[#fac51c] to-[#fa9221]"
+    >
       <NuxtPage />
     </UMain>
 

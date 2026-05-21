@@ -8,10 +8,10 @@ const items = [
   <div>
     <UPageHero class="hero-bg">
       <template #title >
-        <h1 class="text-[#ffffff]">
+        <h1 class="text-[#ffffff] text-outline">
           Taquería:
         </h1>
-        <h1 class="text-[#ffffff]">
+        <h1 class="text-[#ffffff] text-outline my-2">
           El Callejón de Dany
         </h1>
       </template>
@@ -38,7 +38,7 @@ const items = [
       }]"
     />
 
-    <p class="text-4xl font-bold text-center text-white">
+    <p class="text-4xl font-bold text-center text-white text-outline">
       ¡EXPLORA NUESTRO SABOR!
     </p>
 
