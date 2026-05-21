@@ -14,14 +14,14 @@ useHead({
 })
 
 const title = 'Taquería: El Callejón de Dany'
-const description = 'Descripciónnnn'
+const description = 'Excelencia culinaria y sabor tradicional en un solo lugar.'
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
   ogDescription: description,
-  ogImage: '/Logo.png',
+  ogImage: '/Logo.ico',
   twitterCard: 'summary_large_image'
 })
 

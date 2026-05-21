@@ -22,7 +22,7 @@ const items = [
     <UPageSection
       id="features"
       title="CONÓCENOS"
-      description="Start with a solid foundation. This template includes all the essentials for building production-ready applications with Nuxt UI's powerful component system."
+      description="En Taquería 'El Callejón de Dany' nos dedicamos a la preparación de alimentos con un estricto control de higiene. Nuestra especialidad abarca desde los tacos de carne asada y tacos piratas (chicos y grandes), acompañados de nuestros frijoles charros, hasta hamburguesas sencillas preparadas al momento y órdenes de papas con complementos frescos. Ofrecemos un servicio ágil y un entorno limpio para brindar una experiencia gastronómica confiable y de alta calidad a toda la comunidad."
       :features="[{
         icon: 'i-lucide-rocket',
         title: 'Production-ready from day one',
@@ -39,14 +39,6 @@ const items = [
         icon: 'i-lucide-blocks',
         title: '100+ components included',
         description: 'Access Nuxt UI\'s comprehensive component library. From forms to navigation, everything is accessible, responsive, and customizable.'
-      }, {
-        icon: 'i-lucide-code-2',
-        title: 'Developer experience first',
-        description: 'Auto-imports, hot module replacement, and TypeScript support. Write less boilerplate and ship more features.'
-      }, {
-        icon: 'i-lucide-shield-check',
-        title: 'Built for scale',
-        description: 'Enterprise-ready architecture with proper error handling, SEO optimization, and security best practices built-in.'
       }]"
     />
 
