@@ -24,21 +24,17 @@ const items = [
       title="CONÓCENOS"
       description="En Taquería 'El Callejón de Dany' nos dedicamos a la preparación de alimentos con un estricto control de higiene. Nuestra especialidad abarca desde los tacos de carne asada y tacos piratas (chicos y grandes), acompañados de nuestros frijoles charros, hasta hamburguesas sencillas preparadas al momento y órdenes de papas con complementos frescos. Ofrecemos un servicio ágil y un entorno limpio para brindar una experiencia gastronómica confiable y de alta calidad a toda la comunidad."
       :features="[{
-        icon: 'i-lucide-rocket',
-        title: 'Production-ready from day one',
-        description: 'Pre-configured with TypeScript, ESLint, Tailwind CSS, and all the best practices. Focus on building features, not setting up tooling.'
-      }, {
-        icon: 'i-lucide-palette',
-        title: 'Beautiful by default',
-        description: 'Leveraging Nuxt UI\'s design system with automatic dark mode, consistent spacing, and polished components that look great out of the box.'
+        icon: 'i-lucide-award',
+        title: 'Compromiso',
+        description: 'Nos distingue el compromiso diario por mantener la frescura de nuestros productos.'
       }, {
         icon: 'i-lucide-zap',
-        title: 'Lightning fast',
-        description: 'Optimized for performance with SSR/SSG support, automatic code splitting, and edge-ready deployment. Your users will love the speed.'
+        title: 'Calidad',
+        description: 'La comodidad y la calidad del servicio ofrecido a nuestros clientes es nuestra prioridad.'
       }, {
-        icon: 'i-lucide-blocks',
-        title: '100+ components included',
-        description: 'Access Nuxt UI\'s comprehensive component library. From forms to navigation, everything is accessible, responsive, and customizable.'
+        icon: 'i-lucide-badge-dollar-sign',
+        title: 'Servicio',
+        description: 'Aceptamos las siguientes formas de pago: Efectivo, Tarjeta y Transferencia bancaria.'
       }]"
     />
 

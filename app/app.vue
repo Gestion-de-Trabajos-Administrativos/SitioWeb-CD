@@ -57,7 +57,7 @@ const items = ref<NavigationMenuItem[][]>([
         alt="Logo"
         class="max-w-[80px] h-auto object-contain"
       />
-      <span class="font-bold text-lg">
+      <span class="font-bold text-base">
         TAQUERÍA: EL CALLEJÓN DE DANY
       </span>
     </div>
@@ -74,13 +74,13 @@ const items = ref<NavigationMenuItem[][]>([
 
     <UFooter class="my-10">
       <template #left>
-        <p class="text-sm text-muted">
+        <p class="text-lg text-muted">
           Taquería: El Callejón de Dany • © {{ new Date().getFullYear() }}
         </p>
       </template>
 
       <template #right>
-        <p class="text-sm text-muted">
+        <p class="text-lg text-muted">
           ¡Síguenos en nuestras redes sociales!
         </p>
         <UButton
