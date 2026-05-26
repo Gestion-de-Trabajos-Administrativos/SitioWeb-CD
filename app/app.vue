@@ -14,7 +14,7 @@ useHead({
 })
 
 const title = 'Taquería: El Callejón de Dany'
-const description = 'Excelencia culinaria y sabor tradicional en un solo lugar.'
+const description = 'http://localhost:3000/'
 
 useSeoMeta({
   title,
@@ -82,21 +82,13 @@ const items = ref<NavigationMenuItem[][]>([
 
       <template #right>
         <p class="text-lg text-muted">
-          ¡Síguenos en nuestras redes sociales!
+          ¡Sígue nuestra cuenta de Facebook Oficial!
         </p>
         <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
+          to="https://www.facebook.com/callejondefierritos"
           target="_blank"
           icon="i-simple-icons-facebook"
           aria-label="Facebook"
-          color="neutral"
-          variant="ghost"
-        />
-        <UButton
-          to="https://github.com/nuxt-ui-templates/starter"
-          target="_blank"
-          icon="i-simple-icons-instagram"
-          aria-label="Instagram"
           color="neutral"
           variant="ghost"
         />
