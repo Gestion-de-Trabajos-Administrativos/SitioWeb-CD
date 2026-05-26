@@ -14,7 +14,7 @@ useHead({
 })
 
 const title = 'Taquería: El Callejón de Dany'
-const description = '¡Ven y descubre la variedad de sabores en La Taquería El Callejón de Dany!'
+const description = '¡Sabor que te hace volver al callejón!'
 
 useSeoMeta({
   title,
