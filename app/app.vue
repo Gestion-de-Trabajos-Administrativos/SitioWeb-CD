@@ -14,7 +14,7 @@ useHead({
 })
 
 const title = 'Taquería: El Callejón de Dany'
-const description = 'http://localhost:3000/'
+const description = '¡Ven y descubre la variedad de sabores en La Taquería El Callejón de Dany!'
 
 useSeoMeta({
   title,
